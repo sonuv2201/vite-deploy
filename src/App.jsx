@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <h2>DEMO</h2>
-      <BrowserRouter>
+      <BrowserRouter basename='/vite-deploy/'>
         <header>
           <Link to='/'>Home</Link> |
           <Link to='/about'>&nbsp;About</Link> |
